@@ -1,3 +1,4 @@
 # PyTorch dependencies for ResNet18 training on M1 Mac
 torch>=2.0.0
 torchvision>=0.15.0
+wandb>=0.15.0

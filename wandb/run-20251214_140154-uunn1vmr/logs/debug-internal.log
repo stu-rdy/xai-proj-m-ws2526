@@ -1,0 +1,12 @@
+{"time":"2025-12-14T14:01:54.465007+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-14T14:01:54.841619+01:00","level":"INFO","msg":"stream: created new stream","id":"uunn1vmr"}
+{"time":"2025-12-14T14:01:54.842248+01:00","level":"INFO","msg":"writer: started","stream_id":"uunn1vmr"}
+{"time":"2025-12-14T14:01:54.842553+01:00","level":"INFO","msg":"stream: started","id":"uunn1vmr"}
+{"time":"2025-12-14T14:01:54.842541+01:00","level":"INFO","msg":"handler: started","stream_id":"uunn1vmr"}
+{"time":"2025-12-14T14:01:54.842996+01:00","level":"INFO","msg":"sender: started","stream_id":"uunn1vmr"}
+{"time":"2025-12-14T14:51:32.315907+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-14T14:51:33.165015+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-14T14:51:33.235486+01:00","level":"INFO","msg":"stream: closing","id":"uunn1vmr"}
+{"time":"2025-12-14T14:51:33.235906+01:00","level":"INFO","msg":"handler: closed","stream_id":"uunn1vmr"}
+{"time":"2025-12-14T14:51:33.23617+01:00","level":"INFO","msg":"sender: closed","stream_id":"uunn1vmr"}
+{"time":"2025-12-14T14:51:33.236198+01:00","level":"INFO","msg":"stream: closed","id":"uunn1vmr"}

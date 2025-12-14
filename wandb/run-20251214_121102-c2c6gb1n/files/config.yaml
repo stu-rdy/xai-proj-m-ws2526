@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            9ec2m5btg8j1wjtlrj0yat53eihqbyq0:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 7
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "3221225472"
+                args:
+                    - --wandb
+                codePath: train_resnet.py
+                codePathLocal: train_resnet.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "131654225920"
+                email: stephpark1plus1@gmail.com
+                executable: /Users/stephpark/Documents/xai-proj-m-ws2526/venv/bin/python
+                git:
+                    commit: 39f729fdcd1bc54545f93eec4680ab8e5b5e3251
+                    remote: git@github.com:stu-rdy/xai-proj-m-ws2526.git
+                host: P.local
+                memory:
+                    total: "8589934592"
+                os: macOS-26.2-arm64-arm-64bit
+                program: /Users/stephpark/Documents/xai-proj-m-ws2526/train_resnet.py
+                python: CPython 3.9.6
+                root: /Users/stephpark/Documents/xai-proj-m-ws2526
+                startedAt: "2025-12-14T11:11:02.295885Z"
+                writerId: 9ec2m5btg8j1wjtlrj0yat53eihqbyq0
+        m: []
+        python_version: 3.9.6
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 1
+                - 16
+                - 62
+            "4": 3.9.6
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": darwin-arm64
+architecture:
+    value: resnet18
+batch_size:
+    value: 32
+dataset:
+    value: ImageNetSubset
+epochs:
+    value: 25
+learning_rate:
+    value: 0.001
+momentum:
+    value: 0.9
+num_classes:
+    value: 10
+pretrained:
+    value: true
+weight_decay:
+    value: 0.0001

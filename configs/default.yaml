@@ -1,0 +1,23 @@
+# Default configuration for ImageNetSubset training
+
+training:
+  epochs: 5
+  batch_size: 32
+  learning_rate: 0.001
+  momentum: 0.9
+  weight_decay: 0.0001
+  num_workers: 4
+
+model:
+  architecture: resnet18
+  pretrained: true
+
+data:
+  data_dir: ImageNetSubset
+
+paths:
+  checkpoint_dir: checkpoints
+
+wandb:
+  enabled: false
+  project: imagenet-subset

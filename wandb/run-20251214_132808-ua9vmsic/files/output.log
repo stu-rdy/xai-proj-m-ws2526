@@ -1,0 +1,88 @@
+
+============================================================
+📈 Starting Training
+============================================================
+
+🔄 Epoch 1/5
+----------------------------------------
+/Users/stephpark/Documents/xai-proj-m-ws2526/venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py:684: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)
+   Batch 50/407 | Loss: 1.5946 | Acc: 50.56%
+   Batch 100/407 | Loss: 1.1642 | Acc: 64.56%
+   Batch 150/407 | Loss: 0.9798 | Acc: 69.69%
+   Batch 200/407 | Loss: 0.8821 | Acc: 72.52%
+   Batch 250/407 | Loss: 0.8145 | Acc: 74.33%
+   Batch 300/407 | Loss: 0.7674 | Acc: 75.78%
+   Batch 350/407 | Loss: 0.7324 | Acc: 76.75%
+   Batch 400/407 | Loss: 0.7079 | Acc: 77.48%
+
+   📊 Epoch Summary:
+   Train Loss: 0.7038 | Train Acc: 77.57%
+   Val Loss: 0.4242 | Val Acc: 87.40%
+   Time: 301.4s | LR: 0.001000
+   ✨ New best model saved! (Val Acc: 87.40%)
+
+🔄 Epoch 2/5
+----------------------------------------
+   Batch 50/407 | Loss: 0.4984 | Acc: 84.31%
+   Batch 100/407 | Loss: 0.4930 | Acc: 84.09%
+   Batch 150/407 | Loss: 0.4811 | Acc: 84.33%
+   Batch 200/407 | Loss: 0.4777 | Acc: 84.45%
+   Batch 250/407 | Loss: 0.4744 | Acc: 84.47%
+   Batch 300/407 | Loss: 0.4696 | Acc: 84.53%
+   Batch 350/407 | Loss: 0.4720 | Acc: 84.54%
+   Batch 400/407 | Loss: 0.4692 | Acc: 84.54%
+
+   📊 Epoch Summary:
+   Train Loss: 0.4681 | Train Acc: 84.54%
+   Val Loss: 0.4382 | Val Acc: 86.60%
+   Time: 309.4s | LR: 0.001000
+
+🔄 Epoch 3/5
+----------------------------------------
+   Batch 50/407 | Loss: 0.4689 | Acc: 84.75%
+   Batch 100/407 | Loss: 0.4515 | Acc: 85.06%
+   Batch 150/407 | Loss: 0.4579 | Acc: 84.71%
+   Batch 200/407 | Loss: 0.4447 | Acc: 85.08%
+   Batch 250/407 | Loss: 0.4396 | Acc: 85.44%
+   Batch 300/407 | Loss: 0.4459 | Acc: 85.17%
+   Batch 350/407 | Loss: 0.4470 | Acc: 85.08%
+   Batch 400/407 | Loss: 0.4485 | Acc: 85.10%
+
+   📊 Epoch Summary:
+   Train Loss: 0.4475 | Train Acc: 85.13%
+   Val Loss: 0.3878 | Val Acc: 87.80%
+   Time: 309.6s | LR: 0.001000
+   ✨ New best model saved! (Val Acc: 87.80%)
+
+🔄 Epoch 4/5
+----------------------------------------
+   Batch 50/407 | Loss: 0.4431 | Acc: 85.06%
+   Batch 100/407 | Loss: 0.4459 | Acc: 85.03%
+   Batch 150/407 | Loss: 0.4435 | Acc: 85.12%
+   Batch 200/407 | Loss: 0.4300 | Acc: 85.61%
+   Batch 250/407 | Loss: 0.4192 | Acc: 85.85%
+   Batch 300/407 | Loss: 0.4149 | Acc: 85.98%
+   Batch 350/407 | Loss: 0.4138 | Acc: 86.11%
+   Batch 400/407 | Loss: 0.4117 | Acc: 86.20%
+
+   📊 Epoch Summary:
+   Train Loss: 0.4116 | Train Acc: 86.20%
+   Val Loss: 0.4202 | Val Acc: 86.80%
+   Time: 310.2s | LR: 0.001000
+
+🔄 Epoch 5/5
+----------------------------------------
+   Batch 50/407 | Loss: 0.3940 | Acc: 86.88%
+   Batch 100/407 | Loss: 0.3894 | Acc: 86.53%
+   Batch 150/407 | Loss: 0.3877 | Acc: 86.75%
+   Batch 200/407 | Loss: 0.3810 | Acc: 86.92%
+   Batch 250/407 | Loss: 0.3848 | Acc: 86.92%
+   Batch 300/407 | Loss: 0.3891 | Acc: 86.74%
+   Batch 350/407 | Loss: 0.3912 | Acc: 86.80%
+   Batch 400/407 | Loss: 0.3881 | Acc: 86.95%
+
+   📊 Epoch Summary:
+   Train Loss: 0.3895 | Train Acc: 86.89%
+   Val Loss: 0.3828 | Val Acc: 87.80%
+   Time: 318.5s | LR: 0.001000
