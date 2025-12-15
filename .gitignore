@@ -2,3 +2,4 @@ ImageNetSubset/
 venv/
 checkpoints/
 __pycache__/
+ensemble_package.zip
